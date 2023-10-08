@@ -4,15 +4,16 @@ import userDefaultPic from '../../../assets/user.png';
 const Navbar = () => {
 
     const navLinks = <>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/about">About</NavLink></li>
-        <li><NavLink to="/career">Career</NavLink></li>
-        <li><NavLink to="/login">Login</NavLink></li>
+        <li className="font-semibold"><NavLink to="/">Home</NavLink></li>
+        <li className="font-semibold"><NavLink to="/about">About</NavLink></li>
+        <li className="font-semibold"><NavLink to="/career">Career</NavLink></li>
+        <li className="font-semibold"><NavLink to="/login">Login</NavLink></li>
+        <li className="font-semibold"><NavLink to="/register">Register</NavLink></li>
 
     </>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 mb-4">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
